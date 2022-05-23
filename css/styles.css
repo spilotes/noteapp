@@ -23,13 +23,13 @@ body {
 }
 
 .add {
-  background-color: #007fff;
+  background-color: #0066cc;
   border-radius: 3px;
   border: none;
   color: white;
   cursor: pointer;
   padding: 0.5rem 1rem;
-  position: fixed;
+  position: absolute;
   top: 1rem;
   right: 1rem;
   transition: all 0.3s ease-in-out;
@@ -37,7 +37,7 @@ body {
 }
 
 .add:hover {
-  transform: scale(1.05);
+  background-color: #007fff;
 }
 
 .note {
