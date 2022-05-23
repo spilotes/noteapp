@@ -1,12 +1,11 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
-
 * {
   box-sizing: border-box;
   margin: 0;
+  font-family: sans-serif;
 }
 
 body {
-  background: linear-gradient(90deg, #030008, #00131a, #00131a);
+  background: linear-gradient(90deg, #030008, #00131a);
   display: flex;
   flex-wrap: wrap;
   font-family: "Poppins", sans-serif;
@@ -14,10 +13,13 @@ body {
   padding-top: 3rem;
 }
 
-.spilotes {
-  margin-top: -2.2rem;
-  margin-left: 1rem;
+.logo {
+  top: 1rem;
+  left: 5rem;
+  width: 8rem;
   cursor: pointer;
+  position: absolute;
+  visibility: hidden;
 }
 
 .add {
@@ -30,7 +32,8 @@ body {
   position: fixed;
   top: 1rem;
   right: 1rem;
-  transition: all 300ms ease-in-out;
+  transition: all 0.3s ease-in-out;
+  visibility: hidden;
 }
 
 .add:hover {
